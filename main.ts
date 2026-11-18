@@ -2,9 +2,9 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 
 const scenes = [
-  'You sit at the kitchen table. A loaf is cooling on a wooden board, its crust making small, dry clicks beneath a linen cloth. There is a chair for your feet and a square of afternoon light on the floor. The room smells faintly of flour. Between one little sound and the next, the garden is quiet.',
-  'On the covered porch, a cotton shirt hangs from the back of a chair. Someone has mended its cuff with pale blue thread. A breeze turns the sleeve a little, showing the neat stitches, then lets it hang. Beyond the steps, the bean leaves move together and come apart. A bee works slowly along the low white flowers.',
-  'Back at the table, the bread has almost finished its small sounds. The cloth holds a little warmth. You rest your hands beside it while the light reaches the edge of the board. Another soft click, farther from the last. One corner of the cloth rises in the air from the doorway, then settles against the curve of the loaf.',
+  'You sit at the kitchen table, your feet on the smooth rung of the chair. A loaf cools on a wooden board beneath a linen cloth. Now and then its crust makes a small, dry click. The room smells of toasted flour. Afternoon light lies across the floorboards, reaching as far as the leg of the table.',
+  'Through the open door, a cotton shirt hangs over a chair on the porch. Its cuff has been mended with pale blue thread. A little air fills the sleeve, then leaves it in its old fold. Beyond the steps, the bean leaves turn, showing their paler sides. A patch of sun rests on the mended cuff, bringing out each small stitch.',
+  'Back at the table, the sounds from the bread come farther apart. The board is warm beneath your palms. A small click, after a longer pause, then only the leaves outside. Light rests along the edge of the cloth. The linen lies over the loaf, rounded at the top, loose along the sides.',
 ];
 
 const text = scenes.join('\n\n');
