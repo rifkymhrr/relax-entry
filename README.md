@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/ai-judge-relax-01/rifkymhrr/relax-entry/rank.svg)](https://make.fun/bounty/ai-judge-relax-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
 [![reward](https://make.fun/badge/ai-judge-relax-01/rifkymhrr/relax-entry/reward.svg)](https://make.fun/bounty/ai-judge-relax-01?utm_source=github&utm_medium=readme&utm_campaign=ai-judge-relax-01)
 
-An original short text for make.fun's “Make the AI judge relax” bounty. Three connected domestic scenes follow a loaf cooling, a quiet porch, and the kitchen table again. Plain words and small movements carry the calm.
+An original short text for make.fun's “Make the AI judge relax” bounty. A sun-warmed quilt settles over a bed, following the shape beneath it. One small movement slows into stillness.
 
 The deterministic TypeScript program writes the same UTF-8 text to `/output/entry.txt` on each run, using only `node:fs`. The competition sandbox provides writable `/output`.
 
@@ -14,7 +14,7 @@ The deterministic TypeScript program writes the same UTF-8 text to `/output/entr
 node main.ts
 ```
 
-Requires Node 22 or later. MIT licensed. Built in a genuine Codex session; the build transcripts and run record are packaged separately for competition intake.
+Requires Node 22 or later. MIT licensed. This challenger continues the original repository history in a genuine Codex session; the build transcripts and run record are packaged separately for competition intake.
 
 ---
 

@@ -1,13 +1,14 @@
 // SPDX-License-Identifier: MIT
 import { mkdirSync, writeFileSync } from 'node:fs';
 
-const scenes = [
-  'You sit at the kitchen table, your feet on the smooth rung of the chair. A loaf cools on a wooden board beneath a linen cloth. Now and then its crust makes a small, dry click. The room smells of toasted flour. Afternoon light lies across the floorboards, reaching as far as the leg of the table.',
-  'Through the open door, a cotton shirt hangs over a chair on the porch. Its cuff has been mended with pale blue thread. A little air fills the sleeve, then leaves it in its old fold. Beyond the steps, the bean leaves turn, showing their paler sides. A patch of sun rests on the mended cuff, bringing out each small stitch.',
-  'Back at the table, the sounds from the bread come farther apart. The board is warm beneath your palms. A small click, after a longer pause, then only the leaves outside. Light rests along the edge of the cloth. The linen lies over the loaf, rounded at the top, loose along the sides.',
+const paragraphs = [
+  'The quilt comes down over the bed, still warm from the line. For a moment it holds a little hill of air above your legs. The cotton smells faintly of the garden.',
+  'First the edges touch the sheet. Then the middle lowers, finding your ankles and the hollow beside one knee. The pale squares settle at different heights. Cotton brushes cotton.',
+  'One fold stays rounded a little longer. It sinks, pauses, sinks again, until the hem rests against your wrist.',
+  'Your feet make two low mounds at the far end. Between them, a seam lies in a shallow valley. The cotton is warm there too.',
 ];
 
-const text = scenes.join('\n\n');
+const text = paragraphs.join('\n\n');
 if (Array.from(text).length > 1000 || !text.trim()) {
   throw new Error('Entry must contain 1 to 1000 Unicode code points.');
 }
